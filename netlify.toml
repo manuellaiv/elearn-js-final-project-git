@@ -10,30 +10,30 @@
 
 [[redirects]]
   from = "/about-us"
-  to = "/about-us/about-us.html"
+  to = "/page/about-us/about-us.html"
   status = 200
 
 [[redirects]]
   from = "/blog"
-  to = "/blog/blog.html"
+  to = "/page/blog/blog.html"
   status = 200
 
 [[redirects]]
   from = "/contact-us"
-  to = "/contact-us/contact-us.html"
+  to = "/page/contact-us/contact-us.html"
   status = 200
 
 [[redirects]]
   from = "/portofolio"
-  to = "/portofolio/portofolio.html"
+  to = "/page/portofolio/portofolio.html"
   status = 200
 
 [[redirects]]
   from = "/subscription"
-  to = "/subscription/subscription.html"
+  to = "/page/subscription/subscription.html"
   status = 200
 
 [[redirects]]
   from = "/about-us"
-  to = "/about/about-us.html"
+  to = "/page/about/about-us.html"
   status = 200
