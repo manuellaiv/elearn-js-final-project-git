@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>ELearn</title>
+        <link rel="stylesheet" type="text/css" href="style.css">
+        <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
+    </head>
+    <body>
+        <header class="header">
+            <div class="header-logo">
+                <img src="img/logo.png" alt="ELearn">
+            </div>
+            <div class="header-menu">
+                <ul>
+                    <li><a href="">Contact Us</a></li>
+                    <li><a href="page/about-us/about-us.html">About Us</a></li>
+                    <li><a href="page/portofolio/portofolio.html">Portofolio</a></li>
+                    <li><a href="page/blog/blog.html">Blog</a></li>
+                    <li><a href="page/subscription/subscription.html">Subscription</a></li>
+                    <li><a href=""><b>Home</b></a></li>
+                </ul>
+            </div>
+        </header>
+        <div class="home-img1">
+            <img src="img/home-img.png" alt="home img1">
+            <button class="startButton">Start</button>
+        </div>
+        <div class="home-provide">
+            <div class="subtitle">What we'll provide?</div>
+            <div class="card-container">
+                <div class="card">
+                    <img src="img/home-img2.png" alt="home img2">
+                    <div class="card-desc">Access our e-book library at your fingertips</div>
+                </div>
+                <div class="card">
+                    <img src="img/home-img2.png" alt="home img2">
+                    <div class="card-desc">Complete your favorite course with flexible time</div>
+                </div>
+                <div class="card">
+                    <img src="img/home-img2.png" alt="home img2">
+                    <div class="card-desc">Various mentor to guide your study</div>
+                </div>
+            </div>
+        </div>
+        <div class="home-choices">
+            <div class="subtitle">50+ choices of subjects</div>
+            <div class="choice-container" id="choice-container">
+
+            </div>
+        </div>
+        <div class="home-start">
+            <div class="subtitle">Start your journey now!</div>
+            <button class="startButton">Start</button>
+        </div>
+
+        <div class="overlay" id="overlay">
+            <div class="form-container">
+                <span class="close" id="close">&times;</span>
+                <h2>Register Form</h2>
+                <form action="#" method="post">
+                    <label for="name">Name</label>
+                    <input type="text" id="name" name="name" required>
+        
+                    <label for="phone">Phone</label>
+                    <input type="tel" id="phone" name="phone" required>
+        
+                    <label for="email">Email</label>
+                    <input type="email" id="email" name="email" required>
+        
+                    <label for="education">Education</label>
+                    <input type="text" id="education" name="education" required>
+        
+                    <div class="subject-filter">
+                        <label for="subject">Subject</label>
+                        <div class="filter">
+                            <input type="checkbox" id="Science" name="subject-filter" value="Science">
+                            <label class="subject-filter-item" for="Science">Science</label><br>
+                        </div>
+                        <div class="filter">
+                            <input type="checkbox" id="Social" name="subject-filter" value="Social">
+                            <label class="subject-filter-item" for="Social">Social</label><br>
+                        </div>
+                    </div>
+                    <div id="subject-list">
+
+                    </div>
+                    <button id="submitBtn" type="submit">Submit</button>
+                </form>
+            </div>
+        </div>
+
+        <footer class="footer">
+            <div class="footer-column">
+                <img src="img/home-map.png" alt="Map">
+            </div>
+            <div class="footer-column">
+                <p>ELearn Company</p>
+                <p>Ostrich Street 7A</p>
+                <p>Cassava, Mars</p>
+            </div>
+            <div class="footer-column">
+                <div class="social-media">
+                    <div class="social-media-item">
+                        <img src="img/wa-logo.png" alt="WhatsApp">
+                        <div>+62 812 3456 7890</div>
+                    </div>
+                    <div class="social-media-item">
+                        <img src="img/ig-logo.png" alt="Instagram">
+                        <div>elearn_</div>
+                    </div>
+                    <div class="social-media-item">
+                        <img src="img/twt-logo.png" alt="Twitter">
+                        <div>at.elearn</div>
+                    </div>
+                </div>
+            </div>
+        </footer>
+        <script src="main.js"></script>
+    </body>
+</html>
