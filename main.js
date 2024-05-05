@@ -4,7 +4,7 @@ const subjects_list = [
     { name: "Chemistry", field: "Science" },
     { name: "Economics", field: "Social" },
     { name: "History", field: "Social" },
-    { name: "Biology", field: "Both" },
+    { name: "Biology", field: "Science" },
     { name: "Astronomy", field: "Science" },
     { name: "Philosophy", field: "Social" },
     { name: "English", field: "Social" },
